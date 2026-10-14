@@ -1,0 +1,216 @@
+<AppConfig>
+    <!-- exportFolderPath -->
+    <exportFolderPath>./export/</exportFolderPath>
+
+    <!-- local DB config -->
+    <dbPath>linkedDB1.xml</dbPath>
+
+    <!-- application log path -->
+    <applicationLogPath>application1.log</applicationLogPath>
+
+    <!-- Wifi config -->
+
+    <wifiEth>en1</wifiEth>
+
+    <wifiCheckSkip>false</wifiCheckSkip>
+
+    <!-- Display config -->
+
+    <displayConfigEnable>true</displayConfigEnable>
+
+    <displayConfigApp><![CDATA[
+displayplacer "res:1920x1080 enabled:true"
+ ]]></displayConfigApp>
+
+    <!-- Linked config -->
+
+    <defaultNetwork>Viktor_5G|Berlin2019</defaultNetwork>
+
+    <startUrl><![CDATA[
+https://www.linkedin.com|https://www.linkedin.com/feed/|https://www.linkedin.com/in/|https://www.linkedin.com/notifications/
+ ]]></startUrl>
+
+    <urlStartPathActions>
+        <item>click|navbar|Messaging|11536|0.4</item>
+        <item>click|navbar|Home|11536|0.3</item>
+        <item>scroll|bottom|6602|0.9</item>
+        <item>scroll|top|4604|0.5</item>
+        <item>click|navbar|My Network|8246|0.7</item>
+        <item>click|navbar|Notifications|8193|0.3</item>
+        <item>scroll|bottom|5559|0.3</item>
+    </urlStartPathActions>
+
+    <urlJobsActions>
+        <item>click|navbar|Jobs|14246|1</item> <!-- must be 1, for position on correct input filed -->
+        <item>input|jobs|navbarFocus|flutter|9071|1</item> <!-- must be 1, for skip iFrame and init random-->
+        <item>input|jobs|navbarText|flutter|10761|1</item>
+        <item>input|jobs|navbarSubmit|flutter|13808|1</item>
+        <item>input|location|navbarFocus|Worldwide|9071|1</item>
+        <item>input|location|navbarText|Worldwide|10761|1</item>
+        <item>input|location|navbarSubmit|Worldwide|12808|1</item>
+        <item>click|searchBar|Date posted|9808|1</item>
+        <item>click|searchBarLabel|Past 24 hours|9808|1</item>
+        <item>click|searchBar|Show(*)result-|12457|1</item>
+        <item>click|searchBar|Remote|9555|1</item>
+        <item>click|searchBarLabel|Remote|9955|1</item>
+        <item>click|searchBar|Show(*)result-/3|13656|1</item>
+    </urlJobsActions>
+
+    <urlFeedActions>
+        <item>click|navbar|Home|15246|1</item> <!-- must be 1, for position on correct input filed -->
+        <item>input|home|navbarFocus|"hiring"|4401|1</item> <!-- must be 1, for skip iFrame and init random-->
+        <item>input|home|navbarText|"flutter hiring"|4401|0.7</item>
+        <item>input|home|navbarSubmit|flutter hiring|12120|1</item>
+        <item>click|searchBar|Posts|9071|1</item>
+        <item>click|searchBar|Sort by|9818|1</item>
+        <item>click|searchBarLabel|Latest|8159|1</item>
+        <item>click|searchBar|Show results|12180|1</item>
+        <item>scroll|bottom|6596|0.5</item>
+        <item>click|searchBar|Date posted|9734|1</item>
+        <item>click|searchBarLabel|Past 24 hours|9849|1</item>
+        <item>click|searchBar|Show results/1|14189|1</item>
+    </urlFeedActions>
+
+    <urlEndPathActions>
+        <!-- "My Network" is not used here to avoid exceeding the per-run processing limits -->
+        <item>click|navbar|Home|7634|0.4</item>
+        <item>scroll|bottom|3841|0.2</item>
+        <item>click|navbar|Notifications|8193|0.3</item>
+        <item>click|navbar|Home|9071|0.2</item>
+    </urlEndPathActions>
+
+    <linkedScannerProfiles>
+        <item>Default</item>
+        <!-- <item>'Profile 8'</item> -->
+        <!-- <item>'Profile 1'</item> -->
+        <!-- <item>'Profile 7'</item> -->
+        <!-- <item>'Profile 2'</item> -->
+        <!-- <item>'Profile 11'</item> -->
+        <!-- <item>'Profile 5'</item> -->
+        <!-- <item>'Profile 3'</item> -->
+        <!-- <item>'Profile 6'</item> -->
+        <!-- <item>'Profile 9'</item> -->
+        <!-- <item>'Profile 10'</item> -->
+    </linkedScannerProfiles>
+
+    <linkedProfileNames>
+        <item>Default->S#1x V.D. U+ L+</item>
+        <item>'Profile 8'->S#1a O.S. U+ L?</item>
+        <item>'Profile 1'->S#2x E.S. U+ L-</item>
+        <item>'Profile 7'->S#2a E.P. U+ L-</item>
+        <item>'Profile 2'->S#3x A.S. U+ L-</item>
+        <item>'Profile 3'->S#4x D.M. Us L-</item>
+        <item>'Profile 5'->S#3a ViDe U+ L-</item>
+        <item>'Profile 6'->S#5x P.G. U+ L-</item>
+        <item>'Profile 9'->S#5a T.G. U+ L-</item>
+        <item>'Profile 10'->S#5b J.B. U+ L-</item>
+        <item>'Profile 11'->S#2c D.A. U+ L+</item>
+    </linkedProfileNames>
+
+    <linkedProfileDeviceId>
+        <item>Default->72|111|Viktor_5G|Berlin2019</item>
+        <item>'Profile 8'->46|127|HAP_S1|112233445566</item>
+        <item>'Profile 1'->48|157|HAP_S2|112233445566</item>
+        <item>'Profile 7'->30|10|HAP_S2|112233445566</item>
+        <item>'Profile 2'->69|121|HAP_S3|112233445566</item>
+        <item>'Profile 3'->49|131|HAP_S4|112233445566</item>
+        <item>'Profile 5'->85|120|HAP_S3|112233445566</item>
+        <item>'Profile 6'->48|101|HAP_S5|112233445566</item>
+        <item>'Profile 9'->44|99|HAP_S5|112233445566</item>
+        <item>'Profile 10'->34|73|HAP_S5|112233445566</item>
+        <item>'Profile 11'->34|73|HAP_S2|112233445566</item>
+    </linkedProfileDeviceId>
+
+    <scanTimeFrom>00:15</scanTimeFrom>
+
+    <scanTimeTo>21:00</scanTimeTo>
+
+    <scanInterval>15</scanInterval>
+
+    <scanIntervalDelta>5</scanIntervalDelta>
+
+    <!-- Telegram Alerts -->
+
+    <enableTelegramAlerts>true</enableTelegramAlerts>
+
+    <telegramChatId>-4208466236</telegramChatId>
+
+    <enablePingTelegramAlerts>true</enablePingTelegramAlerts>
+
+    <telegramPingChatId>-4223588050</telegramPingChatId>
+
+    <botID>1</botID>
+
+    <!-- Filter Config -->
+
+    <includeWords>
+        <item>flutter</item>
+    </includeWords>
+
+    <excludeWords>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Egypt</item>
+        <item>Philippines</item>
+        <item>Cairo</item>
+        <item>+91</item>
+        <item>+92</item>
+        <item>Vietnam</item>
+        <item>Vietnam</item>
+        <item>Costa Rica</item>
+        <item>Mexico</item>
+        <item>Indonesia</item>
+        <item>Lebanon</item>
+        <item>Nigeria</item>
+        <item>Thailand</item>
+        <item>Bangkok</item>
+        <item>Bangladesh</item>
+        <item>Iran</item>
+        <item>South Africa</item>
+        <item>Myanmar</item>
+        <item>Burma</item>
+        <item>Colombia</item>
+        <item>Bolivia</item>
+        <item>Tunisia</item>
+        <item>Peru</item>
+        <item>Malaysia</item>
+        <item>Hanoi</item>
+        <item>Ethiopia</item>
+        <item>Morocco</item>
+        <item>Armenia</item>
+        <item>Sri Lanka</item>
+        <item>Nepal</item>
+        <item>Nepal</item>
+        <item>Bosnia</item>
+        <item>Iraq</item>
+        <item>Ukraine</item>
+        <item>Kenya</item>
+        <item>Qatar</item>
+        <item>Chad</item>
+        <item>Uzbekistan</item>
+        <item>Azerbaijan</item>
+        <item>Gaza</item>
+        <item>Jordan</item>
+        <item>Brazil</item>
+    </excludeWords>
+
+    <!-- Bot Bidder Config -->
+
+    <skipBidderBot>false</skipBidderBot>
+
+    <botNote>[Read the following LinkedIn profile carefully. Based on the information, write a short (max 180 characters), friendly message in English inviting the person to connect. The message should feel genuine and relevant to the person's background or interests. Do not include any signature or name. {Here is the text}]</botNote>
+
+    <botRefer>[Read the following profile carefully. Based on the information, write a short, friendly message in English that asks if the reader has any part-time job or remote project opportunities related to mobile development (especially Flutter), or if they can recommend someone who might be looking for a developer like me. The message should feel genuine and relevant to the person's background or interests. Do not include any signature or name. {Here is the text}]
+
+Cheers</botRefer>
+
+    <isRequestConnectDetectPrompt>Analyze the text and respond 'Yes' if it contains a request to connect and a response to this request. Otherwise, respond 'No'. {Here is the text}</isRequestConnectDetectPrompt>
+
+    <!-- OpenCV config -->
+
+    <openCVdylib>libopencv_java4120.dylib</openCVdylib>
+
+    <openCVConfFolder>conf_1920x1080</openCVConfFolder>
+
+</AppConfig>
+

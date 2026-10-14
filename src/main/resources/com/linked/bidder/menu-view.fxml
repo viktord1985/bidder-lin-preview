@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<VBox alignment="TOP_CENTER" prefHeight="275.0" prefWidth="162.0" spacing="4.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.linked.bidder.MenuController">
+    <padding>
+        <Insets bottom="16.0" left="16.0" right="16.0" top="4.0"/>
+    </padding>
+
+    <Label text="WARNING: Remove ETH0 before start!">
+        <font>
+            <Font name="Arial Bold" size="15.0"/>
+        </font>
+        <VBox.margin>
+            <Insets/>
+        </VBox.margin>
+    </Label>
+
+    <Label fx:id="logText" text="Ready To Start">
+        <font>
+            <Font name="System Bold" size="15.0"/>
+        </font>
+    </Label>
+
+    <Button fx:id="tartPostJobsScannerButton" onAction="#onStartPostJobsScannerClick" text="Start Posts  &amp; Jobs Scanner"
+            style="-fx-background-color: #CCFFCC;"/>
+
+    <Button onAction="#onTestModeClick" text="Test Mode"/>
+
+    <VBox fx:id="testModeGroup" alignment="TOP_CENTER" spacing="4.0" xmlns="http://javafx.com/javafx/17.0.2-ea">
+
+        <HBox alignment="TOP_CENTER" spacing="4.0" xmlns="http://javafx.com/javafx/17.0.2-ea">
+
+            <Button onAction="#onTestProfileParsersClick" text="Profile Parsers"/>
+
+            <Button onAction="#onTestPostsParsersClick" text="Posts Parsers"/>
+
+        </HBox>
+
+        <Button onAction="#onTestMyChromeDriverClick" text="Test MyChromeDriver"/>
+
+        <HBox alignment="TOP_CENTER" spacing="4.0" xmlns="http://javafx.com/javafx/17.0.2-ea">
+
+            <Button onAction="#onTestAutoActionsClick" text="Auto Actions"/>
+
+            <Button onAction="#onTestAIClick" text="Test AI"/>
+
+        </HBox>
+
+    </VBox>
+
+
+    <Button onAction="#onForceQuitClick" text="Force Quit" style="-fx-background-color: #FFCCCC;"/>
+
+    <Button fx:id="btnStop" mnemonicParsing="false" onAction="#onStop" text="Stop [X]"/>
+
+    <Label text="Scanners">
+        <font>
+            <Font name="System Bold" size="13.0"/>
+        </font>
+    </Label>
+
+    <ListView fx:id="profilesListView" prefHeight="120" style="-fx-font-family: 'Courier New'; -fx-font-size: 13px;"/>
+
+    <Label text="Logs">
+        <font>
+            <Font name="System Bold" size="13.0"/>
+        </font>
+    </Label>
+
+    <ListView fx:id="logsListView" prefHeight="40" VBox.vgrow="ALWAYS" style="-fx-font-size: 13px;"/>
+
+</VBox>

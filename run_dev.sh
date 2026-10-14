@@ -1,0 +1,1 @@
+java -Xmx8G --module-path ./out/artifacts/bidder_lin_jar/ --add-modules javafx.controls,javafx.fxml -jar ./out/artifacts/bidder_lin_jar/bidder-lin.jar flutterConfigDev.xml autorun=true

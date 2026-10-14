@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Main-Class: com.linked.bidder.MyApplication
+Class-Path: java-dataloader-3.2.0.jar annotations-13.0.jar google-cloud-
+ core-http-2.8.22.jar javafx-controls-17.0.2-mac-aarch64.jar failsafe-3.
+ 3.2.jar async-http-client-netty-utils-2.12.3.jar proto-google-cloud-fir
+ estore-bundle-v1-3.7.0.jar perfmark-api-0.25.0.jar jtoml-2.0.0.jar http
+ mime-4.5.14.jar javafx-graphics-17.0.2-mac-aarch64.jar jetty-util-9.4.5
+ 1.v20230217.jar selenium-chromium-driver-4.12.1.jar selenium-support-4.
+ 12.1.jar htmlunit-core-js-3.5.0.jar commons-lang3-3.13.0.jar re2j-1.6.j
+ ar kotlin-stdlib-1.4.10.jar auto-service-annotations-1.1.1.jar netty-tr
+ ansport-classes-epoll-4.1.96.Final.jar commons-exec-1.3.jar javafx-fxml
+ -17.0.2-mac-aarch64.jar netty-transport-4.1.84.Final.jar netty-codec-4.
+ 1.84.Final.jar javafx-fxml-17.0.2.jar netty-reactive-streams-2.0.4.jar 
+ opentelemetry-sdk-metrics-1.28.0.jar jetty-http-9.4.51.v20230217.jar an
+ imal-sniffer-annotations-1.22.jar httpcore-4.4.15.jar grpc-services-1.5
+ 0.1.jar javafx-controls-17.0.2.jar grpc-alts-1.50.1.jar reactive-stream
+ s-1.0.3.jar listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.
+ jar opentelemetry-sdk-1.28.0.jar jeromq-0.5.3.jar gax-httpjson-0.104.4.
+ jar protobuf-java-3.21.8.jar stax-api-1.0.1.jar byte-buddy-1.14.5.jar g
+ oogle-http-client-apache-v2-1.42.1.jar gax-grpc-2.19.4.jar netty-codec-
+ http-4.1.84.Final.jar opentelemetry-semconv-1.28.0-alpha.jar bcpkix-jdk
+ 15on-1.70.jar slf4j-api-2.0.3.jar websocket-client-9.4.51.v20230217.jar
+  selenium-ie-driver-4.12.1.jar protobuf-java-util-3.21.8.jar javafx-gra
+ phics-17.0.2.jar jnacl-1.0.0.jar grpc-googleapis-1.50.1.jar xpp3-1.1.3.
+ 3.jar neko-htmlunit-3.5.0.jar google-api-client-gson-2.0.0.jar json-202
+ 40303.jar netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar goo
+ gle-auth-library-credentials-1.12.1.jar google-auth-library-oauth2-http
+ -1.12.1.jar netty-resolver-4.1.84.Final.jar selenium-json-4.12.1.jar go
+ ogle-cloud-core-2.8.22.jar selenium-chrome-driver-4.12.1.jar commons-lo
+ gging-1.2.jar grpc-api-1.50.1.jar selenium-grid-4.12.1.jar google-oauth
+ -client-1.34.1.jar kotlin-stdlib-jdk7-1.6.20.jar proto-google-cloud-fir
+ estore-v1-3.7.0.jar selenium-java-4.12.1.jar commons-io-2.13.0.jar sele
+ nium-edge-driver-4.12.1.jar firebase-admin-9.1.1.jar gax-2.19.4.jar gso
+ n-2.10.1.jar jsoup-1.15.3.jar salvation2-3.0.1.jar websocket-api-9.4.51
+ .v20230217.jar javax.annotation-api-1.3.2.jar jakarta.activation-1.2.2.
+ jar opentelemetry-context-1.28.0.jar google-http-client-1.42.2.jar open
+ telemetry-sdk-extension-autoconfigure-spi-1.28.0.jar api-common-2.2.1.j
+ ar selenium-os-4.12.1.jar opentelemetry-sdk-logs-1.28.0.jar kotlin-stdl
+ ib-common-1.4.0.jar opentelemetry-api-events-1.28.0-alpha.jar netty-han
+ dler-proxy-4.1.60.Final.jar opencensus-contrib-http-util-0.31.1.jar jsr
+ 305-3.0.2.jar opentelemetry-api-1.28.0.jar commons-codec-1.16.0.jar htm
+ lunit-cssparser-3.5.0.jar okio-2.8.0.jar opentelemetry-sdk-extension-au
+ toconfigure-1.28.0.jar grpc-xds-1.50.1.jar htmlunit-3.5.0.jar grpc-cont
+ ext-1.50.1.jar bcprov-jdk15on-1.70.jar selenium-safari-driver-4.12.1.ja
+ r proto-google-iam-v1-1.6.4.jar netty-common-4.1.96.Final.jar commons-n
+ et-3.9.0.jar netty-codec-socks-4.1.60.Final.jar grpc-google-cloud-stora
+ ge-v2-2.14.0-alpha.jar opentelemetry-sdk-trace-1.28.0.jar google-api-se
+ rvices-storage-v1-rev20220705-2.0.0.jar checker-qual-3.26.0.jar httpcli
+ ent-4.5.13.jar google-cloud-storage-2.14.0.jar grpc-auth-1.50.1.jar fai
+ lureaccess-1.0.1.jar selenium-firefox-driver-4.12.1.jar guava-31.1-jre.
+ jar conscrypt-openjdk-uber-2.5.2.jar jackson-core-2.13.4.jar grpc-proto
+ buf-lite-1.50.1.jar simple-xml-2.7.1.jar jetty-io-9.4.51.v20230217.jar 
+ grpc-stub-1.50.1.jar opencensus-contrib-grpc-util-0.31.1.jar htmlunit-x
+ path-3.5.0.jar jcommander-1.82.jar kotlin-stdlib-jdk8-1.6.20.jar j2objc
+ -annotations-1.3.jar opentelemetry-extension-incubator-1.28.0-alpha.jar
+  netty-handler-4.1.84.Final.jar opentelemetry-exporter-logging-1.28.0.j
+ ar error_prone_annotations-2.16.jar grpc-grpclb-1.50.1.jar netty-transp
+ ort-native-epoll-4.1.60.Final-linux-x86_64.jar opencensus-api-0.31.1.ja
+ r selenium-remote-driver-4.12.1.jar okhttp-4.9.0.jar netty-transport-na
+ tive-kqueue-4.1.96.Final.jar netty-transport-native-epoll-4.1.96.Final.
+ jar selenium-devtools-v114-4.12.1.jar grpc-core-1.50.1.jar websocket-co
+ mmon-9.4.51.v20230217.jar gapic-google-cloud-storage-v2-2.14.0-alpha.ja
+ r opentelemetry-sdk-common-1.28.0.jar dec-0.1.2.jar google-cloud-core-g
+ rpc-2.8.22.jar grpc-netty-shaded-1.50.1.jar proto-google-common-protos-
+ 2.9.6.jar javafx-base-17.0.2-mac-aarch64.jar selenium-devtools-v115-4.1
+ 2.1.jar google-http-client-appengine-1.42.2.jar commons-text-1.10.0.jar
+  selenium-api-4.12.1.jar netty-transport-classes-kqueue-4.1.96.Final.ja
+ r google-http-client-jackson2-1.42.2.jar google-cloud-firestore-3.7.0.j
+ ar opencensus-proto-0.2.0.jar stax-1.2.0.jar google-api-client-2.0.0.ja
+ r threetenbp-1.6.3.jar jetty-client-9.4.51.v20230217.jar netty-buffer-4
+ .1.96.Final.jar grpc-google-iam-v1-1.6.4.jar netty-transport-native-uni
+ x-common-4.1.84.Final.jar selenium-devtools-v116-4.12.1.jar graphql-jav
+ a-20.2.jar selenium-manager-4.12.1.jar google-http-client-gson-1.42.1.j
+ ar javafx-base-17.0.2.jar bcutil-jdk15on-1.70.jar proto-google-cloud-st
+ orage-v2-2.14.0-alpha.jar async-http-client-2.12.3.jar grpc-protobuf-1.
+ 50.1.jar auto-value-annotations-1.9.jar selenium-devtools-v85-4.12.1.ja
+ r selenium-http-4.12.1.jar opencv-4110.jar
+

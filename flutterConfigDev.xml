@@ -1,0 +1,176 @@
+<AppConfig>
+    <!-- exportFolderPath -->
+    <exportFolderPath>./export/</exportFolderPath>
+
+    <!-- local DB config -->
+    <dbPath>linkedDB1.xml</dbPath>
+
+    <!-- application log path -->
+    <applicationLogPath>application1.log</applicationLogPath>
+
+    <!-- Wifi config -->
+
+    <wifiEth>en0</wifiEth>
+
+    <wifiCheckSkip>true</wifiCheckSkip>
+
+    <!-- Display config -->
+
+    <displayConfigEnable>true</displayConfigEnable>
+
+    <displayConfigApp><![CDATA[
+displayplacer "res:1920x1080 enabled:true"
+ ]]></displayConfigApp>
+
+    <!-- Linked config -->
+
+    <defaultNetwork>Tenda_99B570|Berlin2019</defaultNetwork>
+
+    <startUrl><![CDATA[
+https://www.linkedin.com|https://www.linkedin.com/feed/|https://www.linkedin.com/in/|https://www.linkedin.com/notifications/
+]]></startUrl>
+
+    <urlStartPathActions>
+        <item>click|navbar|Home|2500|1</item>
+        <item>click|navbar|My Network|2500|0</item>
+        <item>click|navbar|Messaging|2500|0</item>
+        <item>click|navbar|Notifications|2500|0</item>
+        <item>scroll|bottom|1000|0</item>
+        <item>scroll|top|1000|0</item>
+    </urlStartPathActions>
+
+    <urlJobsActions>
+        <item>click|navbar|Jobs|4401|1</item> <!-- must be 1, for position on correct input filed -->
+        <item>input|jobs|navbarFocus|flutter|4401|1</item> <!-- must be 1, for skip iFrame and init random-->
+        <item>input|jobs|navbarText|flutter|2500|1</item>
+        <item>input|jobs|navbarSubmit|flutter|2500|1</item>
+        <item>input|location|navbarFocus|Worldwide|4401|1</item>
+        <item>input|location|navbarText|Worldwide|2500|1</item>
+        <item>input|location|navbarSubmit|Worldwide|2500|1</item>
+        <item>click|searchBar|Date posted|2500|1</item>
+        <item>click|searchBarLabel|Past 24 hours|2500|1</item>
+        <item>click|searchBar|Show(*)result-|2500|1</item>
+        <item>click|searchBar|Remote|2500|1</item>
+        <item>click|searchBarLabel|Remote|2500|1</item>
+        <item>click|searchBar|Show(*)result-/3|2500|1</item>
+    </urlJobsActions>
+
+    <urlFeedActions>
+        <item>click|navbar|Home|9636|1</item> <!-- must be 1, for position on correct input filed -->
+        <item>input|home|navbarFocus|"hiring"/"hiring"|4401|1</item> <!-- must be 1, for skip iFrame and init random-->
+        <item>input|home|navbarText|"hiring" "flutter"/"hiring" "mobile"|2500|1</item>
+        <item>input|home|navbarSubmit|hiring flutter remote/hiring mobile remote|2500|1</item>
+        <item>click|searchBar|Posts|2500|1</item>
+        <item>click|searchBar|Sort by|2500|1</item>
+        <item>click|searchBarLabel|Latest|2500|1</item>
+        <item>click|searchBar|Show results|2500|1</item>
+        <item>click|searchBar|Date posted|2500|1</item>
+        <item>click|searchBarLabel|Past 24 hours|2500|1</item>
+        <item>click|searchBar|Show results/1|8500|1</item>
+    </urlFeedActions>
+
+    <urlEndPathActions>
+        <!-- "My Network" is not used here to avoid exceeding the per-run processing limits -->
+        <item>click|navbar|Home|3000|1</item>
+    </urlEndPathActions>
+
+    <linkedScannerProfiles>
+        <item>'Profile 11'</item>
+    </linkedScannerProfiles>
+
+    <linkedProfileNames>
+        <item>'Profile 11'->Send1 A. L+ U+</item>
+        <item>'Profile 2'->Olena S. U+ L+</item>
+        <item>'Profile 1'->Andri S. L- U+</item>
+        <item>'Profile 4'->Katya D. U+ L+</item>
+    </linkedProfileNames>
+
+    <linkedProfileDeviceId>
+        <item>'Profile 11'->127|138|Tenda_99B570|Berlin2019</item>
+        <item>'Profile 2'->127|138|Tenda_99B570|Berlin2019</item>
+        <item>'Profile 1'->122|143|Tenda_99B570|Berlin2019</item>
+        <item>'Profile 4'->73|161|Tenda_99B570|Berlin2019</item>
+        <item>Default->132|152|Tenda_99B570|Berlin2019</item>
+    </linkedProfileDeviceId>
+
+    <scanTimeFrom>00:00</scanTimeFrom>
+
+    <scanTimeTo>23:59</scanTimeTo>
+
+    <scanInterval>15</scanInterval>
+
+    <scanIntervalDelta>5</scanIntervalDelta>
+
+    <!-- Telegram Alerts -->
+
+    <enableTelegramAlerts>true</enableTelegramAlerts>
+
+    <telegramChatId>-4208466236</telegramChatId>
+
+    <enablePingTelegramAlerts>true</enablePingTelegramAlerts>
+
+    <telegramPingChatId>-4223588050</telegramPingChatId>
+
+    <botID>Dev</botID>
+
+    <!-- Filter Config -->
+
+    <includeWords>
+        <item>flutter</item>
+    </includeWords>
+
+    <excludeWords>
+        <item>FlutterFlow</item>
+        <item>Flutter Flow</item>
+        <item>VPN</item>
+        <item>HR</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Egypt</item>
+        <item>Philippines</item>
+        <item>Cairo</item>
+        <item>+91</item>
+        <item>+92</item>
+        <item>Vietnam</item>
+        <item>Vietnam</item>
+        <item>Costa Rica</item>
+        <item>Mexico</item>
+        <item>Indonesia</item>
+        <item>Lebanon</item>
+        <item>Nigeria</item>
+        <item>Thailand</item>
+        <item>Bangkok</item>
+        <item>Bangladesh</item>
+        <item>Iran</item>
+        <item>South Africa</item>
+        <item>Myanmar</item>
+        <item>Burma</item>
+        <item>Colombia</item>
+        <item>Bolivia</item>
+        <item>Tunisia</item>
+        <item>Hanoi</item>
+        <item>Ethiopia</item>
+        <item>Morocco</item>
+        <item>Armenia</item>
+    </excludeWords>
+
+    <!-- Bot Bidder Config -->
+
+    <skipBidderBot>false</skipBidderBot>
+
+    <botNote>[Read the following LinkedIn profile carefully. Based on the information, write a short (max 180 characters), friendly message in English inviting the person to connect. The message should feel genuine and relevant to the person's background or interests. Do not include any signature or name. {Here is the text}]</botNote>
+
+    <botRefer>[Read the following profile carefully. Based on the information, write a short, friendly message in English that asks if the reader has any part-time job or remote project opportunities related to mobile development (especially Flutter), or if they can recommend someone who might be looking for a developer like me. The message should feel genuine and relevant to the person's background or interests. Do not include any signature or name. {Here is the text}]
+
+Cheers</botRefer>
+
+    <isRequestConnectDetectPrompt>Analyze the text and respond 'Yes' if it contains a request to connect and a response to this request. Otherwise, respond 'No'. {Here is the text}</isRequestConnectDetectPrompt>
+
+    <!-- OpenCV config -->
+
+    <openCVdylib>libopencv_java4110.dylib</openCVdylib>
+
+    <openCVConfFolder>conf_3456x2234</openCVConfFolder>
+
+</AppConfig>
+
